@@ -1,0 +1,26 @@
+[project]
+name = "polymarket-reproduction"
+version = "0.1.0"
+description = "Reproduction of 'Prediction Market Accuracy: Crowd Wisdom or Informed Minority?' (Gomez-Cram, Guo, Jensen and Kung, 2026)"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "anthropic==0.117.0",
+    "duckdb==1.5.4",
+    "ipykernel==7.3.0",
+    "ipython==9.15.0",
+    "itables==2.9.1",
+    "matplotlib==3.11.0",
+    "numpy==2.5.1",
+    "pandas==3.0.3",
+    "pyarrow==25.0.0",
+    "pyfixest==0.60.0",
+    "requests==2.34.2",
+    "scipy==1.18.0",
+    "statsmodels==0.14.6",
+    "tqdm==4.69.0",
+    "truststore==0.10.4",
+]
+
+[tool.uv]
+package = false
